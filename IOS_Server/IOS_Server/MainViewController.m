@@ -21,6 +21,9 @@
     // Do any additional setup after loading the view.
     NSLog(@"so poor , to be a excelent coder");
     
+ 
+    NSLog(@"so poor , to be a excelent coder");
+
 }
 
 

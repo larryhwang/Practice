@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>81B52C40-70BF-49D2-A975-A17ABC3B6D9C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A840C15FCDB13898E28E39F015EAAE5D31EF77FE</key>
+		<string>https://github.com/larryhwang/Another.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PHP后台_前台登陆/PHP后台_前台登陆.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A840C15FCDB13898E28E39F015EAAE5D31EF77FE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/larryhwang/Another.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A840C15FCDB13898E28E39F015EAAE5D31EF77FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A840C15FCDB13898E28E39F015EAAE5D31EF77FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Another</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00034D8B1B575041007CEDE9 /* video.m in Sources */ = {isa = PBXBuildFile; fileRef = 00034D8A1B575041007CEDE9 /* video.m */; };
 		00FF62E31B56B64400210950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FF62E21B56B64400210950 /* Foundation.framework */; };
 		00FF62E51B56B64400210950 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FF62E41B56B64400210950 /* CoreGraphics.framework */; };
 		00FF62E71B56B64400210950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FF62E61B56B64400210950 /* UIKit.framework */; };
@@ -19,6 +20,7 @@
 		00FF62FE1B56B64400210950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FF62E61B56B64400210950 /* UIKit.framework */; };
 		00FF63061B56B64400210950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FF63041B56B64400210950 /* InfoPlist.strings */; };
 		00FF63081B56B64400210950 /* JsonTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FF63071B56B64400210950 /* JsonTest1Tests.m */; };
+		00FF63131B56B65C00210950 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FF63121B56B65C00210950 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00034D891B575041007CEDE9 /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
+		00034D8A1B575041007CEDE9 /* video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = video.m; sourceTree = "<group>"; };
 		00FF62DF1B56B64400210950 /* JsonTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FF62E21B56B64400210950 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00FF62E41B56B64400210950 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +52,8 @@
 		00FF63031B56B64400210950 /* JsonTest1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JsonTest1Tests-Info.plist"; sourceTree = "<group>"; };
 		00FF63051B56B64400210950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FF63071B56B64400210950 /* JsonTest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTest1Tests.m; sourceTree = "<group>"; };
+		00FF63111B56B65C00210950 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		00FF63121B56B65C00210950 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				00FF62F11B56B64400210950 /* AppDelegate.h */,
 				00FF62F21B56B64400210950 /* AppDelegate.m */,
+				00FF63111B56B65C00210950 /* MainViewController.h */,
+				00FF63121B56B65C00210950 /* MainViewController.m */,
+				00034D891B575041007CEDE9 /* video.h */,
+				00034D8A1B575041007CEDE9 /* video.m */,
 				00FF62F41B56B64400210950 /* Images.xcassets */,
 				00FF62E91B56B64400210950 /* Supporting Files */,
 			);
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00FF62F31B56B64400210950 /* AppDelegate.m in Sources */,
+				00034D8B1B575041007CEDE9 /* video.m in Sources */,
+				00FF63131B56B65C00210950 /* MainViewController.m in Sources */,
 				00FF62EF1B56B64400210950 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 				00FF630D1B56B64400210950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00FF630E1B56B64400210950 /* Build configuration list for PBXNativeTarget "JsonTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				00FF63101B56B64400210950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
